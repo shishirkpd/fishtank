@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --color-main: #333;
 }
 
@@ -10,4 +10,106 @@
 
 body {
   color: var(--color-main);
+} */
+
+.mainLayout {
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 2966px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border: solid 2px;
+  margin-left: 5rem;
+}
+
+.headerWithMenu {
+  position: inherit;
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 200px;
+  background: transparent url('') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.buildTank {
+  position: inherit;
+  top: 207px;
+  left: 0px;
+  width: 1280px;
+  height: 300px;
+  background: transparent linear-gradient(180deg, #CEE8F4 0%, #97C9E0 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.buildTankText {
+  position: inherit;
+  top: 233px;
+  margin-left: 70px;
+  width: 261px;
+  height: 36px;
+  text-align: left;
+  padding-top: 10px;
+  font: normal normal 800 36px/32px Proxima Nova A;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.chooseTank {
+  position: inherit;
+  top: 284px;
+  left: 70px;
+  width: 885px;
+  height: 192px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 28px;
+  opacity: 1;
+}
+
+.chooseTankH4 {
+  position: inherit;
+  top: 309px;
+  margin-left: 60px;
+  padding-top: 10px;
+  width: 217px;
+  height: 24px;
+  text-align: left;
+  font: normal normal bold 24px/32px Proxima Nova A;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.chooseTankText{
+  position: absolute;
+  top: 342px;
+  left: 153px;
+  width: 548px;
+  height: 85px;
+  color: var(--dark-gray);
+  text-align: left;
+  font: normal normal normal 16px/20px Proxima Nova A;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+}
+
+.tankImage {
+  position: absolute;
+  top: 297px;
+  left: 701px;
+  width: 164px;
+  height: 158px;
+  opacity: 1;
+}
+
+.tankCartBuilder {
+  top: 506px;
+  left: 0px;
+  width: 1280px;
+  height: 200px;
+  background: #ECF5FA 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
