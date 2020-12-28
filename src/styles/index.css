@@ -112,8 +112,6 @@ body {
 
 .myTank {
   position: relative;
-  /*top: 529px;
-  left: 110px; */
   width: 102px;
   height: 26px;
   margin-left: 110px;
@@ -167,11 +165,83 @@ body {
 }
 
 .videoGalary {
-  position: relative;
+  position: inherit;
   padding: 5px;
   left: 20px;
   width: 1240px;
   height: 695px;
   background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.chooseButton {
+  position: relative;
+  width: 140px;
+  height: 40px;
+  margin-left: 90px;
+  margin-top: 35px;
+  border: 1px solid #007DB5;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #007DB5;
+  border-radius: 4px;
+  color: #007DB5;
+  opacity: 1;
+}
+
+
+.popup-box {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 2152px;
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 0.8;  
+}
+
+.box {
+  position: fixed;
+  top: 37px;
+  left: 169px;
+  width: 960px;
+  height: 1813px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  top: 47px;
+  left: 1048px;
+  width: 50px;
+  height: 16px;
+  text-align: left;
+  font: normal normal bold 14px/16px Arial;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+}
+
+.resourcesGalary {
+  position: inherit;
+  left: 21px;
+  width: 1240px;
+  height: 438px;
+  opacity: 1;
+  border: solid 1px;
+  color: #007DB5;
+  margin: 2px;
+}
+
+.resourcesGalaryHeading{
+  position: inherit;
+  margin-left: 458px;
+  width: 558px;
+  height: 40px;
+  text-align: center;
+  font: normal normal 800 40px/40px Proxima Nova A;
+  letter-spacing: 0px;
+  color: #003B49;
   opacity: 1;
 }

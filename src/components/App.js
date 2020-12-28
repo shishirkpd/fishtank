@@ -4,8 +4,11 @@ import BuildTank from './BuildTank';
 import TankCartBuilder from './TankCartBuilder';
 import NewFish from './NewFish';
 import VideoGalary from './VideoGallary';
+import ResourcesGallary from './Resources';
+
 
 export function App({ initialData }) {
+ 
   return (
     <div className="mainLayout">
       <Header />
@@ -13,6 +16,8 @@ export function App({ initialData }) {
       <TankCartBuilder />
       <NewFish />
       <VideoGalary />
+      <ResourcesGallary content={"Featured Resourcs"}/>
+      <ResourcesGallary content={"Fish Tank Profession Services"} />
     </div>
   );
 }
