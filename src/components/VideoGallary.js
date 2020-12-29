@@ -3,11 +3,11 @@ import ReactPlayer from "react-player"
 
 const VideoGalary = () =>  {
     return(
-    <div className="videoGalary">
-        <ReactPlayer
-        url="https://www.youtube.com/watch?v=nvq_lvC1MRY"
-      />
-    </div>
+    <>
+      <ReactPlayer className="videoGalary"
+      url="https://youtu.be/0vYb9TcUo0Q"
+    />
+    </>
     );
 };
 
