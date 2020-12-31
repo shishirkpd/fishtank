@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const TankAccessories = () =>  {
+function TankAccessories() {
     return(
     <div className="tankAccessories">
         Tank Accessories

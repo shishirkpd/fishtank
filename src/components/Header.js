@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const Header = () =>  {
+function Header() {
     return(
     <div className="headerWithMenu"> Header </div>
     );

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import ChooseTank from './ChooseTank.js';
 
-const BuildTank = () =>  {
+function BuildTank() {
     return(
     <div className="buildTank">
         <span className="buildTankText">

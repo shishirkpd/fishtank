@@ -34,7 +34,7 @@ function PopUpWindow(props) {
    
 };
 
-const PopUpWindowProductsSection = props => {
+function PopUpWindowProductsSection(props) {
     return(
         <div className="popUpWindowProductsSection">
             <div className="productPagination">

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const ChooseTank = () =>  {
+function ChooseTank() {
     return(
     <div className="chooseTank">
         <h4 className="chooseTankH4">Choosing Your Tank</h4>

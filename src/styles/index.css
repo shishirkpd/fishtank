@@ -279,7 +279,7 @@ body {
 }
 
 .resourceGalaryReadMore {
-  position: inherit;
+  position: relative;
   left: 186px;
   width: 70px;
   height: 18px;

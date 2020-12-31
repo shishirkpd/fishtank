@@ -18,7 +18,7 @@ const testData = [
 ];
 
 
-const ResourcesGallary = props =>  {
+function ResourcesGallary(props) {
     return(
         <div className="resourcesGalary">
         <h2 className="resourcesGalaryHeading">{props.content}</h2>

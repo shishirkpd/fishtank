@@ -1,7 +1,7 @@
 import * as React from 'react';
 import ReactPlayer from "react-player"
 
-const VideoGalary = () =>  {
+function VideoGalary() {
     return(
     <>
       <ReactPlayer className="videoGalary"

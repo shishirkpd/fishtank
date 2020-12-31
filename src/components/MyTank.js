@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const MyTank = () =>  {
+function MyTank() {
     return(
     <div className="myTank">
         My Tank
