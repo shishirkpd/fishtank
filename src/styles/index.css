@@ -413,3 +413,61 @@ body {
   height: 41px;
   opacity: 1;
 }
+
+.productTraser {
+  position: inherit;
+  top: 460px;
+  left: 233px;
+  width: 228px;
+  height: 387px;
+  opacity: 1;
+  float: left;
+}
+
+.productTraserImage {
+  top: 460px;
+  left: 233px;
+  width: 228px;
+  height: 228px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: inherit;
+  margin-left: 64px;
+}
+
+.productTraserTitle {
+  position: inherit;
+  top: 710px;
+  left: 233px;
+  width: 211px;
+  height: 32px;
+  text-align: left;
+  font: normal normal bold 14px/16px Arial;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  margin-left: 64px;
+}
+
+.productTraserPrice {
+  top: 768px;
+  left: 233px;
+  width: 58px;
+  height: 17px;
+  text-align: left;
+  margin-left: 64px;
+  font: normal normal bold 16px/18px Arial;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+}
+
+.productTraserRating {
+  top: 792px;
+  left: 233px;
+  width: 12px;
+  height: 12px;
+  margin-left: 64px;
+  background: #317DB4 0% 0% no-repeat padding-box;
+  opacity: 1;
+}

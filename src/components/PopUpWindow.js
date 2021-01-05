@@ -1,4 +1,5 @@
 import * as React from 'react';
+import ProductTeasersDisplay from "./ProductTeasersDisplay";
 
 function selectFilter(props) {
     alert("selected");
@@ -27,11 +28,10 @@ function PopUpWindow(props) {
                     {props.pageDetails.pageInfo.filterInfo}
                     <span className="show">Show</span>
                 </div>
-                <PopUpWindowProductsSection conent={props}/>
+                <PopUpWindowProductsSection content={props}/>
             </div>
         </div>
     );
-   
 };
 
 function PopUpWindowProductsSection(props) {
@@ -46,6 +46,7 @@ function PopUpWindowProductsSection(props) {
                 </div>
                 <div style={{'margin-right':'5px', 'float':'right'}}>Next </div>
             </div>
+            <ProductTeasersDisplay listOfProcucts={props}/>
         </div>
     );
 };
