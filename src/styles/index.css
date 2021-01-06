@@ -192,30 +192,30 @@ body {
 
 
 .popup-box {
-  position: fixed;
-  top: 0px;
+  position: absolute;
+  top: -500px;
   left: 0px;
   width: 1280px;
-  height: 2152px;
+  height: 3000px;
   background: #000000 0% 0% no-repeat padding-box;
-  opacity: 0.8;  
+  opacity: 1;  
 }
 
 .box {
-  position: fixed;
+  position: relative;
   top: 37px;
   left: 169px;
   width: 960px;
   height: 1813px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   opacity: 1;
+  overflow-y: auto;
 }
 .close-icon {
   content: 'x';
   cursor: pointer;
-  position: fixed;
-  top: 47px;
-  left: 1048px;
+  position: relative;
+  top: 10px;
   width: 50px;
   height: 16px;
   text-align: left;
@@ -223,6 +223,8 @@ body {
   letter-spacing: 0px;
   color: #333333;
   opacity: 1;
+  margin-right: 10px;
+  float: right;
 }
 
 .resourcesGalary {
@@ -279,8 +281,8 @@ body {
 }
 
 .resourceGalaryReadMore {
-  position: relative;
-  left: 186px;
+  position: inherit;
+  margin-left: 186px;
   width: 70px;
   height: 18px;
   color: var(--loyal-blue);
@@ -332,7 +334,7 @@ body {
 }
 
 .productDetailsWindowButtonText {
-  position: relative;
+  position: inherit;
   width: 92px;
   height: 16px;
   top: 13px;
@@ -345,7 +347,7 @@ body {
 }
 
 .productDetailsWindowButtonDesc {
-  position: relative;
+  position: inherit;
   top: 65px;
   height: 16px;
   text-align: center;
@@ -358,10 +360,10 @@ body {
 }
 
 .productDetailsWindowAdditionInfo {
-  position: inherit;
-  top: 330px;
-  left: 235px;
+  position: absolute;
+  top: 293px;
   width: 303px;
+  left: 66px;
   height: 24px;
   text-align: left;
   font: normal normal bold 24px/16px Proxima Nova A;
@@ -371,9 +373,9 @@ body {
 }
 
 .productDetailsWindowFilterInfo {
-  position: inherit;
-  top: 363px;
-  left: 235px;
+  position: absolute;
+  top: 330px;
+  left: 66px;
   width: 315px;
   height: 16px;
   text-align: left;
@@ -384,9 +386,7 @@ body {
 }
 
 .show {
-  position: inherit;
-  top: 363px;
-  left: 505px;
+  position: relative;
   width: 40px;
   height: 16px;
   text-align: left;
@@ -398,8 +398,8 @@ body {
 
 .popUpWindowProductsSection {
   position: inherit;
-  top: 411px;
-  left: 233px;
+  top: 230px;
+  left: 66px;
   width: 837px;
   height: 1395px;
   opacity: 1;
